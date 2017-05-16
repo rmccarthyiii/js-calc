@@ -1,0 +1,49 @@
+	<!DOCTYPE html>
+<html>
+ <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+			<title>Calculations</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/calc.css">
+ </head>
+ <body>
+
+		<h1>JavaScript Calculator</h1>
+		<h2>HTML/CSS/JS</h2>
+
+	<div class="container">
+	  <div class="calc">
+		<input id="screen" value="0" />
+		<div class="calc_main">
+		  <button id="delete" onclick="backspace()" class="top_buttons">Delete</button>
+		  <button id="clear" onclick="clear_screen()" class="top_buttons">Clear</button>
+		  <br>
+		  <button onclick="stack(7)" class="numbers buttons">7</button>
+		  <button onclick="stack(8)" class="numbers buttons">8</button>
+		  <button onclick="stack(9)" class="numbers buttons">9</button>
+		  <button id="mul" onclick="calculations('*')" class="functions buttons" value="*">×</button>
+		  <br>
+		  <button onclick="stack(4)" class="numbers buttons">4</button>
+		  <button onclick="stack(5)" class="numbers buttons">5</button>
+		  <button onclick="stack(6)" class="numbers buttons">6</button>
+		  <button id="div" onclick="calculations('/')" class="functions buttons" value="/">÷</button>
+		  <br>
+		  <button onclick="stack(1)" class="numbers buttons">1</button>
+		  <button onclick="stack(2)" class="numbers buttons">2</button>
+		  <button onclick="stack(3)" class="numbers buttons">3</button>
+
+		  <button id="add" onclick="calculations('+')" class="functions buttons" value="+">+</button>
+		  <br>
+		  
+		  <button onclick="stack(0)" class="numbers buttons">0</button>
+		  <button onclick="add_point()" class="numbers buttons">.</button>
+		  <button id="equal" onclick="calculations('=')" class="functions buttons" value="=">=</button>
+		  <button id="sub" onclick="calculations('-')" class="functions buttons" value="-">-</button>
+		</div>
+	  </div>
+	</div>
+	<script type="text/javascript" src="js/app.js"></script>
+ </body>
+</html>

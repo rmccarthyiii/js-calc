@@ -1,0 +1,44 @@
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	max-width: 600px;
+	text-align: center;
+	margin: 10px auto;
+	font-size: 100%;
+	background: #FEFEFE;
+}
+
+.container {
+	display: inline-block;
+	width: 50%;
+	padding: 5%;
+	margin: auto;
+	background: #FFF;
+	color: #000;
+	font-size: 2rem;
+	font-weight: 300;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 1px 8px 0 rgba(0,0,0,0.1);
+	
+}
+
+.calc  div {
+	display: inline-block;
+	width: 80%;
+	padding: 5%;
+	margin: 5%;
+	cursor: pointer;
+	border: 1px solid #fff;
+	background-color: #ECEFF1;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 1px 8px 0 rgba(0,0,0,0.1);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#screen {
+	width: 55%;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 1px 8px 0 rgba(0,0,0,0.1);
+	
+}
